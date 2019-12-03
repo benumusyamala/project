@@ -389,4 +389,7 @@ output application/json
             </ee:message>
         </ee:transform>
     </flow>
+    <flow name="get:\listAllUnitedFlights1:anypoint-config">
+		<logger level="INFO" doc:name="Logger" doc:id="62fa25dd-da77-4a70-8efa-5d57c7b6d001" />
+    </flow>
 </mule>
